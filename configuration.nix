@@ -7,6 +7,13 @@
     go
     rustc
     cargo
+    zerotier
+    btop
+    htop
+    vim
+    git
+    screen
+    
   ];
 
 
