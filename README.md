@@ -1,2 +1,20 @@
 # somatic
-Linux distribution for the operation of proof of stake blockchain networks
+Linux distribution for participants in peer to peer networks.
+
+
+## Platforms
+
+### Apple Silicon Support
+
+Apple silicon support provided by the Asahi Linux project:
+
+* https://github.com/tpwrules/nixos-apple-silicon
+
+
+
+### Router
+
+
+
+### Raspberry Pi
+
