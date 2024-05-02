@@ -1,5 +1,4 @@
 { config, pkgs, ... }:
-
 {
   imports = [ ];
 
@@ -13,11 +12,9 @@
     vim
     git
     screen
-    
   ];
 
-
-# YOU CAN CONFIGURE SSH HERE, BUT WE AREN'T THERE YET
-#  services.openssh.enable = true;
-#  users.users.root.openssh.authorizedKeys.keys = [ "your-ssh-public-key" ];
+  # YOU CAN CONFIGURE SSH HERE, BUT WE AREN'T THERE YET
+  # services.openssh.enable = true;
+  # users.users.root.openssh.authorizedKeys.keys = [ "your-ssh-public-key" ];
 }
