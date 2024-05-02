@@ -2,7 +2,9 @@
   description = "Somatic Linux";
 
   inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-23.11";
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    pkgs = import nixpkgs { system = "x86_64-linux"; };
   };
 
   system.build.toplevel = {
