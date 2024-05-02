@@ -1,5 +1,10 @@
-{ config, pkgs }:
 {
+  description = "Somatic Linux";
+
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+  };
+
   system.build.toplevel = {
     imports = [ ];
 
