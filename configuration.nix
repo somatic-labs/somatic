@@ -98,11 +98,13 @@
      gh
      bun
      rustup
+     jami
      netmaker
      netbird
      go
      iw
      vscode
+     toxic
      peergos
      vlc
      p2pvc
@@ -126,6 +128,7 @@
      xfce.xfce4-xkb-plugin
      xfce.xfdashboard
      xorg.xev
+     telegram-desktop
      zerotierone
      gcc
      clang
